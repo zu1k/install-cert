@@ -7,4 +7,4 @@ edition = "2021"
 rustls-pemfile = "0.2"
 
 [target.'cfg(windows)'.dependencies]
-windows = { version = "0.29", features = ["Win32_Security_Cryptography", "Win32_Foundation"] }
+windows = { version = "0.32", features = ["Win32_Security_Cryptography", "Win32_Foundation"] }
